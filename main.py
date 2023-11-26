@@ -1,6 +1,7 @@
-# This entrypoint file to be used in development. Start by reading README.md
-import prob_calculator
+"""This entrypoint file to be used in development. Start by reading README.md"""
 from unittest import main
+import prob_calculator
+
 
 prob_calculator.random.seed(95)
 hat = prob_calculator.Hat(blue=4, red=2, green=6)
