@@ -1,7 +1,6 @@
 """Probility calculator module"""
 import copy
 import random
-# Consider using the modules imported above.
 
 class Hat:
     """Hat with balls to draw"""
